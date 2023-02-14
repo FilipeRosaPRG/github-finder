@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import classes from './RepositoriesPage.module.css';
+import { Link } from 'react-router-dom';
 
 interface Repository {
     id: number;
@@ -22,6 +23,8 @@ const RepositoriesPage = () => {
 
     return (
         <div className={classes.repositoriesContainer}>
+            <Link className={classes.backButton} to="/">Voltar</Link>
+
             <h2>Top 5 repositories for {username}</h2>
             <ul>
                 {repos.map(repo => (
