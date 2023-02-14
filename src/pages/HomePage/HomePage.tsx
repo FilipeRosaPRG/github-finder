@@ -5,6 +5,7 @@ import { UserComponent } from "../../components/UserComponent/UserComponent";
 import ErrorComponent from "../../components/ErrorComponent/ErrorComponent";
 
 
+
 const Home = () => {
     const [user, setUser] = useState<UserProps | ''>();
     const [error, setError] = useState(false);
