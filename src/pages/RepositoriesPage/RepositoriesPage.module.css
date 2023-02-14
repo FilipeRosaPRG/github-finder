@@ -1,29 +1,62 @@
 .repositoriesContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 0 20px;
+  background-color: #2b3566;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  gap: 2rem;
 }
 
 .backButton {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #644aff;
-    padding: 1rem;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    max-width: 300px;
-    opacity: .8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #644aff;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+  max-width: 300px;
+  opacity: .8;
 
 }
 
 .backButton:hover {
-    opacity: 1;
-    background-color: #4d3bdf;
+  opacity: 1;
+  background-color: #4d3bdf;
+}
+
+.repositoriesCard {
+  background-color: #2a2d3b;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ffffff;
+}
+
+.codeButton {
+  background-color: #2b3566;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  opacity: 1;
+}
+
+.codeButton:hover {
+  background-color: #0e1129;
+
 }

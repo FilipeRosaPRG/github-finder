@@ -1,9 +1,9 @@
-
+import classes from './ErrorComponent.module.css';
 
 const ErrorComponent = () => {
     return (
         <div>
-            <p>Usuario não encontrado</p>
+            <p className={classes.errorMessage}>Usuario não encontrado</p>
         </div>
     )
 }
